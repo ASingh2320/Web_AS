@@ -1,0 +1,44 @@
+$(document).ready(function(){
+  $(".pframe").hover(function(){
+  	$(".pcap").slideToggle("slow");
+  });
+  $(".pframe").click(function(){
+    window.location.href = "page2.html";
+  });
+  $(".rframe").hover(function(){
+  	$(".rcap").slideToggle("slow");
+  });
+  $(".rframe").click(function(){
+    window.location.href = "page3.html";
+  });
+  $(".aframe").hover(function(){
+  	$(".acap").slideToggle("slow");
+  });
+  $(".aframe").click(function(){
+    window.location.href = "page4.html";
+  });
+  $(".pgnmore").click(function(){
+  	$(".pgndet").show();
+  	$(".pgnmore").hide();
+  })
+  $(".pgnless").click(function(){
+  	$(".pgndet").hide();
+  	$(".pgnmore").show();
+  })
+  $(".cryptmore").click(function(){
+  	$(".cryptdet").show();
+  	$(".cryptmore").hide();
+  })
+  $(".cryptless").click(function(){
+  	$(".cryptdet").hide();
+  	$(".cryptmore").show();
+  })
+  $(".bchessmore").click(function(){
+  	$(".bchessdet").show();
+  	$(".bchessmore").hide();
+  })
+  $(".bchessless").click(function(){
+  	$(".bchessdet").hide();
+  	$(".bchessmore").show();
+  })
+});

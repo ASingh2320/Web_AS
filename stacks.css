@@ -1,0 +1,152 @@
+header h1
+{
+	text-align: center;
+}
+
+.projects{
+	display: block;
+	height: 500px;
+	width: 600px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.resume{
+	display: block;
+	height: 500px;
+	width: 600px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.about{
+	display: block;
+	height: 500px;
+	width: 600px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pcap{
+	display: none;
+	text-align: center;
+	font-size: 150%
+}
+.rcap{
+	display: none;
+	text-align: center;
+	font-size: 150%
+}
+.acap{
+	display: none;
+	text-align: center;
+	font-size: 150%
+}
+.pgn{
+	display: block;
+	height: 500px;
+	width: 600px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.pgntitle{
+	text-align: center;
+}
+.pgndet{
+	display: none;
+}
+.pgnmore{
+	margin-left: 48%;
+}
+.crypt{
+	display: block;
+	height: 500px;
+	width: 600px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.crypttitle{
+	text-align: center;
+}
+.cryptdet{
+	display: none;
+}
+.cryptmore{
+	margin-left: 48%;
+}
+.bchess{
+	display: block;
+	height: 500px;
+	width: 600px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.bchesstitle{
+	text-align: center;
+}
+.bchessdet{
+	display: none;
+}
+.bchessmore{
+	margin-left: 48%;
+}
+.res{
+	display: block;
+	height: 800px;
+	width: 800px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.selfpic{
+	display: block;
+	height: 300px;
+	width: 200px;
+	border: 8px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+.message{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.contact{
+	text-align: center;
+}
+.description{
+	margin-right: 10%;
+}
+header h2{
+	padding: 14px, 16px;
+}
+
+body {
+	background: white;
+	font-family: times new roman;
+}
+
+ul {
+	background: black;
+	list-style-type: none;
+	overflow: hidden;
+
+}
+li{
+	float: left;
+}
+
+li a {
+	color: white;
+	margin: 10px;
+	padding: 14px, 16px;
+	display: block;
+	text-decoration: none;
+}
+
+li:hover {
+	background: green;
+}
+
