@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="WebJS.js"></script>
+	<link rel="stylesheet" type="text/css" href="stacks.css">
+	<ul>
+		<li> <a href="index.html"> Home <a/></li>
+		<li> <a> Projects </a></li>
+		<li> <a href="page3.html"> Resume</a></li>
+		<li> <a href="page4.html"> About </a></li>
+	</ul>
+	<title>Projects</title>
+</head>
+<header>
+	<h1> <strong>Projects </strong></h1>
+</header>
+<body>
+	<h1>What I'm Currently Working On:</h1>
+	<img class = "pgn" src="chess.jpg">
+	<div class="pgntitle"> PGN Parser and Visualizer </div><br>
+	<button type = "button" class = "pgnmore"> Show More </button>
+	<div class = "pgndet">
+		I’ve recently discovered that chess games can be saved in an online format called PGN files. Kind of like commonly known PDF files. These files are formatted in such a way that they can be parsed for data such as who is playing and what moves were made in a game. I aim to make parser that goes through the file and sets up a visualizer on a chess board.
+		<button type = "button" class = "pgnless"> Show Less </button>
+	</div>
+	<br>
+	<br>
+	<h1>Current Project Pool:</h1>
+	<img class = "crypt" src="Encrypt.PNG">
+	<div class="crypttitle"> 
+		Simple Cryptography <br>
+		GitHub Repo: <a href="https://github.com/ASingh2320/SimpleEncrypt.git"> SimpleEncrypt</a><br>
+	</div>
+	<br>
+	
+	<button type = "button" class = "cryptmore"> Show More </button>
+	<div class = "cryptdet">
+		This project is an encryption/decryption program based in Java. The program uses 8 relatively simple encryption techniques to encrypt and decrypt messages. This program used heavy String manipulation for rearranging the texts to be encrypted/decrypted. In terms of data structures, I used arrays to manipulate characters for the cryptography. For example, I used a 2D array to develop the “fence” of the rail-fence cypher. Encryption techniques include: Atbash, ROT13, Caesar, Rail-fence, Polybius Square, Simple Substitution, Columnar Transposition, and Vigenere.  
+		<br>
+		Future Updates: Add try-catch for invalid inputs, add more encryption techniques.
+
+		<button type = "button" class = "cryptless"> Show Less </button>
+	</div>
+	<br>
+	<br>
+	<img class = "bchess" src="CBoard.PNG">
+	<div class="bchesstitle"> 
+		Beginner’s Chess Teaching Module <br> 
+		GitHub Repo: <a href="https://github.com/ASingh2320/chessboard_AS.git"> BeginChess</a><br>
+	</div><br>
+	
+	<button type = "button" class = "bchessmore"> Show More </button>
+	<div class = "bchessdet">
+		This project is a beginner friendly chessboard based in Python. The program shows beginner players the basic movements of chess pieces. Each piece is moveable similar to a real-life chessboard. There is also feature which shows possible moves of a piece when selected. The chessboard was constructed out of a 2D array of objects, and the movement mechanics were based on piece objects moving on the 2D array.
+		<br> 
+		Future Updates: Add intermediate techniques such as castling and en passant, add check and mate mechanics.
+		<button type = "button" class = "bchessless"> Show Less </button>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+</body>
+</html>
