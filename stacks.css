@@ -10,14 +10,6 @@ header h1
 	border: 8px solid black;
 	margin-left: auto;
 	margin-right: auto;
-}
-.pframe{
-	cursor: pointer;
-}
-.rframe{
-	cursor: pointer;
-}
-.aframe{
 	cursor: pointer;
 }
 .resume{
@@ -27,6 +19,7 @@ header h1
 	border: 8px solid black;
 	margin-left: auto;
 	margin-right: auto;
+	cursor: pointer;
 }
 .about{
 	display: block;
@@ -35,21 +28,25 @@ header h1
 	border: 8px solid black;
 	margin-left: auto;
 	margin-right: auto;
+	cursor: pointer;
 }
 .pcap{
 	display: none;
 	text-align: center;
-	font-size: 150%
+	font-size: 150%;
+	cursor: pointer;
 }
 .rcap{
 	display: none;
 	text-align: center;
-	font-size: 150%
+	font-size: 150%;
+	cursor: pointer;
 }
 .acap{
 	display: none;
 	text-align: center;
-	font-size: 150%
+	font-size: 150%;
+	cursor: pointer;
 }
 .pgn{
 	display: block;
